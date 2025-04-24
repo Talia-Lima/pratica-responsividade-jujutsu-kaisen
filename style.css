@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'anime-race';
+    src: url(./fonts/animeace2_reg.otf), url(./fonts/animeace2_reg.ttf);
+}
+
+@font-face {
+    font-family: 'crashbow';
+    src: url(./fonts/Crashbow.otf), url(./fonts/Crashbow.ttf);
+}
+
+body {
+    background-color: #D87591;  
+}
+
+
+.cabecalho {
+    background-color: #05324F;
+    padding: 15px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu-navegacao {
+    float: right;
+}
+
+.menu-navegacao li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a:link {
+    font-family: anime-race, Arial;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 5px 5px 2px #000;
+    color: #D87591;
+}
+
+a:hover {
+    font-size: 15px;
+}
+
+a:active, a:visited {
+    color: #CDC2D2;
+}
+
+main {
+    max-width: 800px;
+    min-width: 320px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-shadow: 7px 7px 9px #000;
+    font-family: crashbow, arial;
+    font-size: 35px;
+}
+
+h2, p {
+    font-family: anime-race, Arial;
+    margin-bottom: 9px;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+.image img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .menu-navegacao {
+        float: none;
+    }
+
+    .menu-navegacao li {
+        display: block;
+        padding: 5px;
+    }
+
+    .descricao {
+        text-align: center;
+    }
+}

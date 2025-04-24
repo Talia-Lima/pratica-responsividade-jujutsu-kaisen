@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="exercício prática usando usando conceitos de html e css intermediários">
+    <meta name="keywords" content="html5, css, media queries, responsividade, exercício prático">
+    <meta name="author" content="Talia">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <h1 class="logo">Anime</h1>
+        
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="painel">
+
+            <div class="descricao">
+                <h2>Jujutsu Kaisen</h2>
+                <p>Yuji Itadori é um estudante do ensino médio que vive em Sendai com seu avô. Ele evita regularmente a equipe de pista devido à sua aversão ao atletismo, apesar de seu talento inato para o esporte. Em vez disso, ele decide ingressar no Clube de Pesquisa Oculta, onde pode relaxar e sair com seus veteranos, e deixar a escola às 17h para visitar seu avô no hospital. Enquanto ele está no leito de morte, seu avô envia duas mensagens poderosas dentro de Yuji - "sempre ajude as pessoas" e "morra cercado por uma multidão".</p>
+                <p>Após a morte de seu avô, Yuji interpreta essas mensagens como uma afirmação - todo mundo merece "uma morte adequada", ele então é confrontado por Megumi Fushiguro, um xamã (巫, Shaman) que o informa de um talismã de alto grau amaldiçoado em sua escola com o qual Yuji recentemente entrou em contato. Seus amigos no Clube Oculto abriram o talismã, um dedo podre, que atraiu Maldições para a escola, criaturas provocadas por emoções negativas e fortalecidas pelo consumo de poderes mágicos presentes em xamãs ou em tais encantos.</p>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="./images/jujutsu-kaisen-pequena.jpg" media="(max-width: 600px)">
+                    <img src="./images/jujutsu-kaisen.jpg" alt="Gojo sensei e sua turma de novatos do curso de feiticeiros jujustus">
+                </picture>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Embarque nessa grande aventura com Jujutsu no Kaisen! Lançamento 15/04/2025.</p>
+        <p>Todos os direitos reservados 2025.</p>
+    </footer>
+</body>
+</html>
