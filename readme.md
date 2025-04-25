@@ -6,7 +6,9 @@ O objetivo do projeto foi me desafiar a construir uma landing page sobre o anime
 
 Projeto com finalidade exclusivamente educacional - feito para reforçar aprendizado.
 
-**Destaque**: links com mudança de tamanho ao passar o mouse (_hover_) e mudança de cor ao serem visitados (_visited_).
+💡**Destaque**: links com mudança de tamanho ao passar o mouse (_hover_) e mudança de cor ao serem visitados (_visited_).
+
+🧠**Estratégia de responsividade**: Foi utilizado no projeto o conceito de Mobile First, com o foco inicial no layout para telas menores e ajustes realizados atráves de medias queries para dispositivos maiores.
 
 
 ![tela inicial](./images/tela-01.gif)

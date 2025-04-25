@@ -7,6 +7,7 @@
     <meta name="keywords" content="html5, css, media queries, responsividade, exercício prático">
     <meta name="author" content="Talia">
 
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 
@@ -39,8 +40,9 @@
 
             <div class="image">
                 <picture>
-                    <source srcset="./images/jujutsu-kaisen-pequena.jpg" media="(max-width: 600px)">
-                    <img src="./images/jujutsu-kaisen.jpg" alt="Gojo sensei e sua turma de novatos do curso de feiticeiros jujustus">
+                    <source media="(min-width: 1024px)" srcset="./images/jujutsu-kaisen.jpg">
+                    <source media="(min-width: 600px)" srcset="./images/jujutsu-kaisen-media.jpg">
+                    <img src="./images/jujutsu-kaisen-pequena.jpg" alt="Imagem promocional do anime Jujutsu Kaisen">
                 </picture>
             </div>
 
@@ -48,7 +50,7 @@
     </main>
 
     <footer>
-        <p>Embarque nessa grande aventura com Jujutsu no Kaisen! Lançamento 15/04/2025.</p>
+        <p>Embarque nessa grande aventura com Jujutsu no Kaisen!</p>
         <p>Todos os direitos reservados 2025.</p>
     </footer>
 </body>
